@@ -102,7 +102,7 @@ Environment variables enable you to separate deployment settings from your sourc
 
 We're now going to update your local code to point to this database. We'll create a json file that will store the credentials for the services the application will use. This file will get used ONLY when the application is running locally. When running in IBM Cloud, the credentials will be read from the VCAP_SERVICES environment variable.
 
-## THIS FILE IS NOW FORKED AND BEING USED BY BIDISHA SUKAI
+## THIS FILE IS NOW FORKED BY BIDISHA SUKAI
 
 1. Create a file called `vcap-local.json` in the `get-started-python` directory with the following content:
   ```
